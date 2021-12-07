@@ -34,7 +34,7 @@ body { background: repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.05), r
 
 .calendar .days ul, .calendar .dates ul { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
-.calendar .days ul li, .calendar .dates ul li { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: calc(100% / 7 - 4px); margin: 2px; position: relative; }
+.calendar .days ul li, .calendar .dates ul li { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; width: calc(100% / 7 - 4px); margin: 2px; position: relative; cursor: pointer; }
 
 .calendar .days ul li::before, .calendar .dates ul li::before { content: ""; display: block; padding-top: 100%; }
 

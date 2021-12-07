@@ -123,6 +123,7 @@ body {
         // height: 40px;
         margin: 2px;
         position: relative;
+        cursor: pointer;
         &::before {
           content: "";
           display: block;

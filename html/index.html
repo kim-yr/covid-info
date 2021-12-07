@@ -131,5 +131,14 @@
       }
     }
     dateUL.innerHTML = output;
+
+    gsap.from(".calendar .dates li", { scale: 0, ease: "power3", stagger: 0.05 });
+
+    const dateLI = document.querySelectorAll(".calendar .dates li");
+    dateLI.forEach((item, idx) => {
+      item.addEventListener("click", () => {
+        console.log("lunch");
+      });
+    });
   </script>
 </html>
